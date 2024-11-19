@@ -18,7 +18,7 @@ turtle.done()
 pygame.init()
 
 screen_width = 800
-screen_height = 600
+screen_height = 800
 ortho_left = -400
 ortho_right = 400
 ortho_top = -400

@@ -6,8 +6,8 @@ from LoadMesh import *
 pygame.init()
 
 # project settings
-screen_width = 1000
-screen_height = 800
+screen_width = 800
+screen_height = 700
 background_color = (0, 0, 0, 1)
 drawing_color = (1, 1, 1, 1)
 
@@ -30,6 +30,7 @@ def initialise():
     glLoadIdentity()
     glViewport(0, 0, screen.get_width(), screen.get_height())
     glEnable(GL_DEPTH_TEST)
+    gluLookAt(0, 0, 5, 0, 0, 0, 0, 1, 0)
 
 
 def display():
